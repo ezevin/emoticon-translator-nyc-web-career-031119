@@ -52,7 +52,7 @@ def get_english_meaning(library, emoticons)
            a = hash["get_meaning"][japanese]
                 
         
-              end 
+               
           end 
           end 
         end
