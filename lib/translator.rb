@@ -49,9 +49,10 @@ def get_english_meaning(library, emoticons)
         emoticon_hash.each do |english, japanese|
           if english == emoticons
              hash["get_meaning"].each do |x, meaning|
+                binding.pry
               if english == x
                   return meaning
-                  binding.pry
+          
                end 
              end 
           end 
