@@ -53,7 +53,8 @@ def get_english_meaning(library, emoticons)
       end
     end
   else return "Sorry, that emoticon was not found"
-     binding.pry
+    
     end 
+    binding.pry
   end 
 end
