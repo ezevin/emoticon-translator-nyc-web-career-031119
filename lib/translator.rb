@@ -31,7 +31,7 @@ def get_japanese_emoticon(library, emoticons)
   hash = load_library(library)
   hash.each do |get_ , emoticon_hash|
     emoticon_hash.each do |english, japanese|
- binding.pry
+
       if emoticon_hash.include?(emoticons)
         return japanese
       else return "Sorry, that emoticon was not found"
