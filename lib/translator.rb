@@ -49,16 +49,12 @@ def get_english_meaning(library, emoticons)
       if emoticon_hash.include?(emoticons) 
         emoticon_hash.each do |english, japanese|
           if english == emoticons
+            binding.pry
           return hash["get_meaning"][japanese]
           end 
         end 
       else  
         return "Sorry, that emoticon was not found"
-        
-               
-         
     end 
   end 
-
-
 end
