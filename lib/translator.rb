@@ -45,7 +45,7 @@ def get_english_meaning(library, emoticons)
   # code goes here
 #   a = " "
 hash = load_library(library)
-result = library["get_meaning"][emoticons]
+result = hash["get_meaning"][emoticons]
 binding.pry
 if result 
   result
