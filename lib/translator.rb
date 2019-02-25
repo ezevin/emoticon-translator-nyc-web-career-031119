@@ -34,7 +34,7 @@ def get_japanese_emoticon(library, emoticons)
       if emoticon_hash.include?(emoticons) 
         emoticon_hash.each do |english, japanese|
           if english == emoticons
-        return japanese
+           return japanese
       else return "Sorry, that emoticon was not found"
       end 
     end
