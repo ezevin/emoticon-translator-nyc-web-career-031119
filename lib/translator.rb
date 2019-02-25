@@ -45,6 +45,7 @@ def get_english_meaning(library, emoticons)
   # code goes here
  hash = load_library(library)
   hash.each do |get_ , emoticon_hash|
+    if get_ == 
       if emoticon_hash.include?(emoticons) 
         emoticon_hash.each do |japanese, meaning|
           binding.pry
