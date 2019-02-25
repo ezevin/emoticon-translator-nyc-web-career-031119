@@ -43,27 +43,12 @@ end
 
 def get_english_meaning(library, emoticons)
   # code goes here
-#   a = " "
+  
 hash = load_library(library)
 result = hash["get_meaning"][emoticons]
-
-if result 
-  result
-else 
-  "Sorry, that emoticon was not found"
-end 
-#   hash.each do |get_ , emoticon_hash|
-#       if emoticon_hash.include?(emoticons) 
-#         emoticon_hash.each do |english, japanese|
-#           if english == emoticons
-
-#           a =  hash["get_meaning"][japanese]
-#           end 
-#         end 
-   
-#     end 
-#   end 
-#   return a
-
-
+  if result 
+    result
+  else 
+    "Sorry, that emoticon was not found"
+  end 
 end
