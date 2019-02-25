@@ -49,7 +49,7 @@ def get_english_meaning(library, emoticons)
       if emoticon_hash.include?(emoticons) 
         emoticon_hash.each do |english, japanese|
           if english == emoticons
-           a = hash["get_meaning"][japanese]
+           a = hash["get_meaning"]
                 
         binding.pry
                
