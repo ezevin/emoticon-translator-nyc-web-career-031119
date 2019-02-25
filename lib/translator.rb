@@ -59,6 +59,6 @@ def get_english_meaning(library, emoticons)
         end
     end 
   end 
-      binding.pry
+
   return a
 end
