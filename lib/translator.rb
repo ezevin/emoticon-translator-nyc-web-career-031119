@@ -48,7 +48,9 @@ hash = load_library
 result = library["get_meaning"][emoticons]
 if result 
   result
-else "Sorry, that emoticon was not found"
+else 
+  "Sorry, that emoticon was not found"
+end 
 #   hash.each do |get_ , emoticon_hash|
 #       if emoticon_hash.include?(emoticons) 
 #         emoticon_hash.each do |english, japanese|
