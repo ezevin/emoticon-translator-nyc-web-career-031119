@@ -51,7 +51,7 @@ def get_english_meaning(library, emoticons)
             hash["get_meaning"].each do |x, meaning|
           binding.pry
               if x == japanese
-                a = meaning
+             
               end 
           end 
           end 
